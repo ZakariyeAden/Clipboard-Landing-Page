@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::root{
+  --cyan:hsl(171, 66%, 44%);
+  --lightBlue:hsl(233, 100%, 69%);
+  --DarkGray:hsl(210, 10%, 33%);
+  --lightGray:hsl(201, 11%, 66%);
+}
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+/* ****************** */
+/* Reuseable Classes */
+/* ****************** */
+.align-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading-primary,
+.hero-description,
+.track-heading,
+.track-description{
+  text-align: center;
+}
+.grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+.helper {
+  margin-top: 4rem !important;
+}
+
+/* ****************** */
+/* Hero Section */
+/* ****************** */
+#hero-section{
+  background-image: url("../images/bg-header-desktop.png");
+  padding: 2rem 0 0 0;
+}
+.logo{
+  color:hsl(171, 66%, 44%);
+  text-align: center;
+  font-size: 7rem;
+}
+.heading-primary{
+  font-size: 1.8rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1rem;
+}
+.hero-description{
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6;
+}
+.btn-box{
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.btn{
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn-primary{
+  color: #fff;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow:  hsl(171, 66%, 44%) 0px 3px 8px;
+  border-bottom: 2px solid hsl(171, 67%, 34%);
+}
+.btn-secondary{
+  color: #fff;
+  background-color: hsl(233, 100%, 69%);
+  border-bottom: 2px solid hsl(233, 62%, 57%);
+}
+
+/* ****************** */
+/* KeepTrack Section */
+/* ****************** */
+#keep-track-section{
+  padding: 7rem 0;
+}
+.img-box{
+  position: relative;
+  left: -30px;
+  z-index: -1;
+}
+
+.text-box{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.track-heading{
+  font-size: 1.8rem;
+  color: hsl(210, 10%, 33%);
+}
+.track-description{
+  font-size: 1.2rem;
+  color: hsl(201, 11%, 66%);
+  margin: 1rem 0 5rem 0;
+  line-height: 1.5;
+}
+.subheading{
+  font-size: 1.4rem;
+  color: hsl(210, 10%, 33%);
+  margin-top: 1rem;
+}
+
+.description{
+  font-size: 1rem;
+  color: hsl(201, 11%, 66%);
+  margin-top: 1rem;
+}
+
