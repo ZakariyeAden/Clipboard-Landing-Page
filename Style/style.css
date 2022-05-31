@@ -24,7 +24,9 @@ body{
 .heading-primary,
 .hero-description,
 .track-heading,
-.track-description{
+.track-description,
+.access-heading,
+.access-description{
   text-align: center;
 }
 .grid-2{
@@ -32,8 +34,8 @@ body{
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
 }
-.helper {
-  margin-top: 4rem !important;
+.img{
+  width: 100%;
 }
 
 /* ****************** */
@@ -120,4 +122,15 @@ body{
   color: hsl(201, 11%, 66%);
   margin-top: 1rem;
 }
-
+/* ****************** */
+/* AccessClipboard Section */
+/* ****************** */
+.access-heading{
+  font-size: 1.8rem;
+  color: hsl(210, 10%, 33%);
+}
+.access-description{
+  font-size: 1rem;
+  color: hsl(201, 11%, 66%);
+  margin: 1rem 0 4rem 0;
+}
