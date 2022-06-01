@@ -39,6 +39,7 @@ body{
   text-align: center;
 }
 .grid-2{
+  margin-top: 8rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
@@ -254,3 +255,26 @@ footer ul li a{
 /* ****************** */
 /* Animation */
 /* ****************** */
+@keyframes revealText{
+  from{
+    transform: translateY(20px);
+  }
+  to{
+    opacity: 1;
+    transform: none;
+  }
+}
+.title-content{
+  display: block;
+  opacity: 0;
+  animation: revealText .5s forwards;
+}
+.title-second{
+  animation-delay: .175s;
+}
+.title-third{
+  animation-delay: .25s;
+}
+.title-fourth{
+  animation-delay: .325s;
+}
