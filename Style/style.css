@@ -39,6 +39,10 @@ body{
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
 }
+.grid3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .img{
   width: 100%;
 }
@@ -181,4 +185,59 @@ body{
 .feature-side{
   margin-top: 8rem;
   gap: 5rem;
+}
+/* ****************** */
+/* SuperCharge Section */
+/* ****************** */
+#clipboard-section{
+  padding: 7rem 0;
+}
+.cp-heading{
+  font-size: 1.8rem;
+  color: hsl(210, 10%, 33%);
+}
+.cp-description{
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+}
+/* ****************** */
+/* Footer */
+/* ****************** */
+footer{
+  padding: 5rem 0 2rem 0;
+  background-color: #f1f3f5;
+}
+footer ul li{
+  list-style: none;
+}
+footer ul li a{
+  text-decoration: none;
+}
+.d-flex{
+  display: flex;
+  justify-content: flex-start;
+  gap: 4rem;
+}
+.link{
+  cursor: pointer;
+  color: hsl(201, 11%, 66%);
+}
+.link:hover{
+  color: hsl(171, 66%, 44%);
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.social-icons{
+  margin-left: 8rem;
+  display: flex;
+  gap: 2rem;
+}
+.footer-logo{
+
+  margin: auto auto 4rem 8rem;
 }
